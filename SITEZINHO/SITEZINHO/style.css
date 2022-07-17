@@ -1,0 +1,116 @@
+body *{
+    font-family: 'Damion', cursive;
+}
+
+body p{
+    font-size: 25px;
+}
+
+body h4 {
+    font-size: 35px;
+}
+
+body h2 {
+    font-size: 45px;
+}
+
+#rodape {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+#rodape a {
+    color: black;
+    text-decoration: none;
+}
+
+#carrousel img {
+    width: 70vh;
+    height: 70vh;
+    object-fit: inherit;
+    background-repeat: no-repeat;
+}
+
+#carrousel {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px 0px rgb(133, 133, 133);
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+#barra-principal img{
+    border-radius: 25px;
+}
+
+#historia h3 {
+    text-align: center;
+}
+
+#produtos img {
+    width: 108px;
+    height: 108px;
+}
+
+#produtos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card h3 {
+    text-align: center;
+}
+
+.card {
+    margin-top: 25px;
+    margin: 18px;
+}
+
+#produtos p {
+    text-align: center;
+}
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#endereco {
+    text-align: center;
+}
+
+#horario-de-funcionamento {
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.container-fluid {
+    justify-content: space-evenly !important;
+}
+
+.elementos {
+    display: flex;
+}
+
+.titulo-logo {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.elementos h4 {
+    padding: 70px;
+}
+
+.elementos a {
+    text-decoration: none;
+    color: black;
+}
+
+.titulo-logo h2 {
+    margin-top: 25px;
+}
